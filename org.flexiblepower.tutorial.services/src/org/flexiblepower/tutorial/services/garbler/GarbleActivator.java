@@ -2,7 +2,7 @@ package org.flexiblepower.tutorial.services.garbler;
 
 import java.util.Hashtable;
 
-import org.flexiblepower.tutorial.services.api.GarbleService;
+import org.flexiblepower.tutorial.api.GarbleService;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 

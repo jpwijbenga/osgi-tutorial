@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.flexiblepower.tutorial.services.api.GarbleService;
+import org.flexiblepower.tutorial.api.GarbleService;
 
 public class GarbleImpl implements GarbleService {
 	@Override

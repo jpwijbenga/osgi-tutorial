@@ -1,11 +1,11 @@
-package org.flexiblepower.tutorial.myfirstapp;
+package org.flexiblepower.tutorial.serviceprinter;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.ServiceEvent;
 import org.osgi.framework.ServiceListener;
 
-public class MyApp implements BundleActivator, ServiceListener {
+public class ServicePrinter implements BundleActivator, ServiceListener {
 	
 	@Override
 	public void start(BundleContext context) throws Exception {

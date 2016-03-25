@@ -1,7 +1,7 @@
 -buildpath: osgi.core
 Bundle-Version: 0.0.0.${tstamp}
-Private-Package: org.flexiblepower.tutorial.myfirstapp
-Bundle-Activator: org.flexiblepower.tutorial.myfirstapp.MyApp
+Private-Package: org.flexiblepower.tutorial.serviceprinter
+Bundle-Activator: org.flexiblepower.tutorial.serviceprinter.ServicePrinter
 -runee: JavaSE-1.8
 -runrequires: \
 	osgi.identity;filter:='(osgi.identity=org.flexiblepower.tutorial.myfirstapp)',\
@@ -21,5 +21,5 @@ Bundle-Activator: org.flexiblepower.tutorial.myfirstapp.MyApp
 	osgi.residential;version='[4.3.0,4.3.1)',\
 	slf4j.api;version='[1.7.7,1.7.8)'
 -resolve: auto
-Bundle-Name: Service listener
+Bundle-Name: Service printer
 Bundle-Description: The bundle listens to services events and prints them to the console
