@@ -1,0 +1,2 @@
+-buildpath: osgi.core
+Bundle-Version: 0.0.0.${tstamp}

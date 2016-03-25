@@ -1,0 +1,7 @@
+package org.flexiblepower.tutorial.services.dictionary;
+
+import java.rmi.activation.Activator;
+
+public class DictionaryActivator implements Activator {
+
+}

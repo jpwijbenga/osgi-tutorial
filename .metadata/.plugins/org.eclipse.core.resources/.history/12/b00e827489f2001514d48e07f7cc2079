@@ -1,0 +1,19 @@
+package org.flexiblepower.tutorial.myfirstapp;
+
+import org.osgi.framework.BundleActivator;
+import org.osgi.framework.BundleContext;
+import org.osgi.framework.ServiceListener;
+
+public class MyApp implements BundleActivator, ServiceListener {
+	
+	@Override
+	public void start(BundleContext context) throws Exception {
+		System.out.println("Bundle started.");
+	}
+
+	@Override
+	public void stop(BundleContext context) throws Exception {
+		System.out.println("Bundle stopped.");
+	}
+	
+}

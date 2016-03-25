@@ -1,0 +1,26 @@
+package org.flexiblepower.tutorial.services.dictionary;
+
+import java.util.Hashtable;
+
+import org.flexiblepower.tutorial.services.api.DictionaryService;
+import org.osgi.framework.BundleActivator;
+import org.osgi.framework.BundleContext;
+
+public class DictionaryActivator implements BundleActivator {
+
+	@Override
+	public void start(BundleContext context) throws Exception {
+		DictionaryImpl dictionary = new DictionaryImpl(); 
+		
+		Hashtable<String, String> props = new Hashtable<String, String>();
+        props.put("Language", "English");
+        context.registerService(
+            DictionaryService.class.getName(), dictionary, props);
+	}
+
+	@Override
+	public void stop(BundleContext context) throws Exception {
+		// The service is unregistered automatically.		
+	}
+
+}

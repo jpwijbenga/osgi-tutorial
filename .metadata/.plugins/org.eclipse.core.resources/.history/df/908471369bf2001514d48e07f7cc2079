@@ -1,0 +1,5 @@
+package org.flexiblepower.tutorial.services.api;
+
+public interface GarbleService {
+	public boolean checkWord(String word);
+}

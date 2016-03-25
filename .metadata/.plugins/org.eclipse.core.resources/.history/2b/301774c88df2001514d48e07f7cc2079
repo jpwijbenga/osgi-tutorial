@@ -1,0 +1,13 @@
+package org.flexiblepower.tutorial.services.dictionary;
+
+import org.flexiblepower.tutorial.services.DictionaryService;
+
+public class DictionaryImpl implements DictionaryService {
+
+	@Override
+	public boolean checkWord(String word) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

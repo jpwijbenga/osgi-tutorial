@@ -1,0 +1,5 @@
+package org.flexiblepower.tutorial.services.api;
+
+public interface DictionaryService {
+	public boolean checkWord(String word);
+}

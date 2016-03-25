@@ -1,0 +1,8 @@
+1458918160896	Rename package 'org.flexiblepower.tutorial.services'
+1458918178069	Rename package 'org.flexiblepower.tutorial.api'
+1458918406414	Rename type 'DictionaryService'
+1458918424476	Rename type 'DictionaryActivator'
+1458918432812	Rename type 'DictionaryImpl'
+1458918543496	Rename local variable 'dictionary'
+1458919068763	Inline local variable 'ary'
+1458919202850	Rename package 'org.flexiblepower.tutorial.services.dictionary'

@@ -1,0 +1,5 @@
+package org.flexiblepower.tutorial.services.dictionary;
+
+public class DictionaryActivator implements BundleActivator {
+
+}

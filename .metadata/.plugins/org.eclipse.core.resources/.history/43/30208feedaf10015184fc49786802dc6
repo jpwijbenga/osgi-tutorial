@@ -1,0 +1,9 @@
+-buildpath: osgi.core
+Bundle-Version: 0.0.0.${tstamp}
+Private-Package: org.flexiblepower.tutorial.myfirstapp
+Bundle-Activator: org.flexiblepower.tutorial.myfirstapp.MyApp
+-runee: JavaSE-1.8
+-runrequires: osgi.identity;filter:='(osgi.identity=org.flexiblepower.tutorial.myfirstapp)'
+-runfw: org.apache.felix.framework;version='[4.4.0,4.4.0]'
+-runbundles: org.flexiblepower.tutorial.myfirstapp;version=snapshot
+-resolve: auto

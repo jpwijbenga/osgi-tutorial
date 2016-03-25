@@ -1,0 +1,5 @@
+Bundle-Version: 0.0.0.${tstamp}
+-buildpath: osgi.core
+Private-Package: org.flexiblepower.tutorial.services.dictionary
+Bundle-Activator: org.flexiblepower.tutorial.services.dictionary.DictionaryActivator
+Export-Package: org.flexiblepower.tutorial.services
