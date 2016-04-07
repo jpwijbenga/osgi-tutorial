@@ -10,8 +10,9 @@ public class GarbleActivator implements BundleActivator {
 
 	@Override
 	public void start(BundleContext context) throws Exception {
-		GarbleImpl garbler = new GarbleImpl(); 
+		ShuffleGarbler garbler = new ShuffleGarbler(); 
 		Hashtable<String, String> props = new Hashtable<String, String>();
+        props.put("GarbleType", "Shuffle");
         props.put("CompatibleStrings", "All");
         context.registerService(
             GarbleService.class.getName(), garbler, props);

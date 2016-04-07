@@ -46,5 +46,4 @@ public class ServicePrinter implements BundleActivator, ServiceListener {
                 "Ex1: Service of type " + objectClass[0] + " modified.");
         }
     }
-	
 }

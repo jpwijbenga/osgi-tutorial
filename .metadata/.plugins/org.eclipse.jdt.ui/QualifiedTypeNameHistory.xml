@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.rmi.activation.Activator"/>
+<fullyQualifiedTypeName name="org.osgi.framework.BundleActivator"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="org.flexiblepower.tutorial.api.GarbleService"/>
+<fullyQualifiedTypeName name="org.flexiblepower.tutorial.games.AnagramGame"/>
+<fullyQualifiedTypeName name="org.osgi.util.tracker.ServiceTracker"/>
+<fullyQualifiedTypeName name="org.osgi.util.tracker.ServiceTrackerCustomizer"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,6 @@
+-buildpath: \
+	osgi.core;version=5.0,\
+	org.flexiblepower.tutorial.api;version=latest
+Bundle-Version: 0.0.0.${tstamp}
+Private-Package: org.flexiblepower.tutorial.games
+Bundle-Activator: org.flexiblepower.tutorial.games.AnagramGameActivator

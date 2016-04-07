@@ -1,4 +1,0 @@
--buildpath: \
-	osgi.annotation;version=6.0.1,\
-	osgi.core
-Bundle-Version: 0.0.0.${tstamp}
